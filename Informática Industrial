@@ -160,7 +160,7 @@
         "tab": "66bccd67.b53984",
         "order": 2,
         "disp": true,
-        "width": "6",
+        "width": "7",
         "collapse": false
     },
     {
@@ -255,7 +255,7 @@
         "z": "d7412538.1e6088",
         "inc": "1",
         "name": "soma",
-        "x": 335.5,
+        "x": 335,
         "y": 646,
         "wires": [
             [
@@ -281,7 +281,7 @@
         "onvalue": "true",
         "onvalueType": "bool",
         "onicon": "radio_button_checked",
-        "oncolor": "green",
+        "oncolor": "blue",
         "offvalue": "false",
         "offvalueType": "bool",
         "officon": "radio_button_checked",
