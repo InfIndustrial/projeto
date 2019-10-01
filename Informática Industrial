@@ -1,0 +1,682 @@
+[
+    {
+        "id": "d7412538.1e6088",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "8f69325f.86dd5",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "53369ecd.1dc1b",
+        "type": "ui_group",
+        "z": "",
+        "name": "login",
+        "tab": "d9851223.f5c02",
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "293a4eea.07fb32",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Cadastro",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "f405dc5a.98b21",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0080c0",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#097479",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#000000",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#0eb8c0",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "66bccd67.b53984",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Monitoramento",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "aed4fd46.245d2",
+        "type": "ui_group",
+        "z": "",
+        "name": "Sobretensão",
+        "tab": "66bccd67.b53984",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "a41c47cf.444e88",
+        "type": "ui_group",
+        "z": "",
+        "name": "Horário/Data de Desconexão ",
+        "tab": "66bccd67.b53984",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "9b9f9c8d.96be9",
+        "type": "ui_group",
+        "z": "",
+        "name": "cadastro para-raios",
+        "tab": "4b9bc083.53ba8",
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "23f46636.78053a",
+        "type": "ui_group",
+        "z": "",
+        "name": "Cadastro",
+        "tab": "293a4eea.07fb32",
+        "disp": true,
+        "width": "7",
+        "collapse": false
+    },
+    {
+        "id": "4b9bc083.53ba8",
+        "type": "ui_tab",
+        "z": "",
+        "name": "cadastro para-raios",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "d9851223.f5c02",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Validação",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "8d69667e.1d39e8",
+        "type": "ui_group",
+        "z": "",
+        "name": "conexão",
+        "tab": "66bccd67.b53984",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "d3a9254a.576738",
+        "type": "dashDB",
+        "z": "",
+        "hostname": "Cadastros",
+        "db": "Cadastros",
+        "port": "50000",
+        "name": ""
+    },
+    {
+        "id": "83e175e2.b78988",
+        "type": "ui_button",
+        "z": "d7412538.1e6088",
+        "name": "Sensor de sobretensão ",
+        "group": "aed4fd46.245d2",
+        "order": 0,
+        "width": "2",
+        "height": "1",
+        "passthru": true,
+        "label": "sensor ",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#2E8B57",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "",
+        "x": 214.5,
+        "y": 575,
+        "wires": [
+            [
+                "c40c3d6e.927ef"
+            ]
+        ]
+    },
+    {
+        "id": "c40c3d6e.927ef",
+        "type": "counter",
+        "z": "d7412538.1e6088",
+        "inc": "1",
+        "name": "soma",
+        "x": 335.5,
+        "y": 646,
+        "wires": [
+            [
+                "3acf57e9.c8b078"
+            ]
+        ]
+    },
+    {
+        "id": "7db3e60c.21d048",
+        "type": "ui_switch",
+        "z": "d7412538.1e6088",
+        "name": "Sensor para-raio",
+        "label": "Sensor para-raio",
+        "tooltip": "",
+        "group": "8d69667e.1d39e8",
+        "order": 1,
+        "width": "5",
+        "height": "1",
+        "passthru": false,
+        "decouple": "false",
+        "topic": "",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "radio_button_checked",
+        "oncolor": "green",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "radio_button_checked",
+        "offcolor": "red",
+        "x": 208,
+        "y": 355,
+        "wires": [
+            [
+                "db015b4e.fbe898",
+                "79f342a8.f8a73c"
+            ]
+        ]
+    },
+    {
+        "id": "180a1869.6983e8",
+        "type": "ui_toast",
+        "z": "d7412538.1e6088",
+        "position": "top right",
+        "displayTime": "5",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "topic": "",
+        "name": "",
+        "x": 780.5,
+        "y": 310,
+        "wires": [],
+        "icon": "node-red/envelope.png"
+    },
+    {
+        "id": "44b4caaf.1d5a34",
+        "type": "ui_text",
+        "z": "d7412538.1e6088",
+        "group": "a41c47cf.444e88",
+        "order": 1,
+        "width": "4",
+        "height": "2",
+        "name": "Horário",
+        "label": "Horário",
+        "format": "{{msg.mytimes}}",
+        "layout": "row-spread",
+        "x": 981.5,
+        "y": 419,
+        "wires": []
+    },
+    {
+        "id": "db015b4e.fbe898",
+        "type": "function",
+        "z": "d7412538.1e6088",
+        "name": "",
+        "func": "if(msg.payload == 0){msg.payload = 'Para-Raio Desconectado'};\nif(msg.payload == 1){msg.payload = 'Para-Raio Conectado'};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 440.5,
+        "y": 309,
+        "wires": [
+            [
+                "180a1869.6983e8"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "3acf57e9.c8b078",
+        "type": "ui_text",
+        "z": "d7412538.1e6088",
+        "group": "aed4fd46.245d2",
+        "order": 1,
+        "width": "6",
+        "height": "2",
+        "name": "",
+        "label": "Qnt. de SobreTensão",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 494.5,
+        "y": 719,
+        "wires": []
+    },
+    {
+        "id": "6465e96d.3bfe88",
+        "type": "ui_form",
+        "z": "d7412538.1e6088",
+        "name": "Cadastro usuário",
+        "label": "Cadastro Usuário",
+        "group": "23f46636.78053a",
+        "order": 2,
+        "width": "6",
+        "height": "8",
+        "options": [
+            {
+                "label": "Nome",
+                "value": "Nome",
+                "type": "text",
+                "required": true
+            },
+            {
+                "label": "E-mail",
+                "value": "E-mail",
+                "type": "email",
+                "required": true
+            },
+            {
+                "label": "CNPJ",
+                "value": "CNPJ",
+                "type": "number",
+                "required": true
+            },
+            {
+                "label": "Senha",
+                "value": "Senha",
+                "type": "password",
+                "required": true
+            },
+            {
+                "label": "Confirmar Senha",
+                "value": "Confirmar Senha",
+                "type": "password",
+                "required": true
+            }
+        ],
+        "formValue": {
+            "Nome": "",
+            "E-mail": "",
+            "CNPJ": "",
+            "Senha": "",
+            "Confirmar Senha": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "",
+        "x": 184,
+        "y": 61,
+        "wires": [
+            [
+                "90030e6e.232e8",
+                "5d466ac2.443544"
+            ]
+        ]
+    },
+    {
+        "id": "165d909a.5fdd0f",
+        "type": "ui_form",
+        "z": "d7412538.1e6088",
+        "name": "Cadastro dos para-raios",
+        "label": "Cadastro dos para-raios",
+        "group": "9b9f9c8d.96be9",
+        "order": 2,
+        "width": "6",
+        "height": "8",
+        "options": [
+            {
+                "label": "Qnt. Para-raios",
+                "value": "Qnt. Para-raios",
+                "type": "number",
+                "required": false
+            },
+            {
+                "label": "Localidade",
+                "value": "Localidade",
+                "type": "text",
+                "required": true
+            },
+            {
+                "label": "Código",
+                "value": "Código",
+                "type": "number",
+                "required": true
+            },
+            {
+                "label": "Coordenadas",
+                "value": "Coordenadas",
+                "type": "number",
+                "required": true
+            }
+        ],
+        "formValue": {
+            "Qnt. Para-raios": "",
+            "Localidade": "",
+            "Código": "",
+            "Coordenadas": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "",
+        "x": 205,
+        "y": 200,
+        "wires": [
+            [
+                "dd8c5ec9.82ba4",
+                "336123df.d1b97c"
+            ]
+        ]
+    },
+    {
+        "id": "c10a032c.52296",
+        "type": "ui_form",
+        "z": "d7412538.1e6088",
+        "name": "",
+        "label": "login",
+        "group": "53369ecd.1dc1b",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Nome",
+                "value": "Nome",
+                "type": "text",
+                "required": true
+            },
+            {
+                "label": "Senha",
+                "value": "Senha",
+                "type": "password",
+                "required": true
+            }
+        ],
+        "formValue": {
+            "Nome": "",
+            "Senha": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "",
+        "x": 149.5,
+        "y": 128,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d1acad47.fe28a",
+        "type": "function",
+        "z": "d7412538.1e6088",
+        "name": "",
+        "func": "var d = new Date();\nvar options = { timeZone: 'Etc/UTC', year: 'numeric', month: '2-digit', day: '2-digit'};\nvar _resultDate = d.toLocaleDateString('de-CH', options);\n\nmsg.payload = _resultDate;\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 557.5,
+        "y": 502,
+        "wires": [
+            [
+                "b6143909.0d78c8"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "a6487bac.88b308",
+        "type": "simpletime",
+        "z": "d7412538.1e6088",
+        "name": "",
+        "x": 555.5,
+        "y": 418,
+        "wires": [
+            [
+                "3a292c98.9ddd24"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "79f342a8.f8a73c",
+        "type": "switch",
+        "z": "d7412538.1e6088",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 450.5,
+        "y": 413,
+        "wires": [
+            [
+                "a6487bac.88b308",
+                "d1acad47.fe28a"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "b6143909.0d78c8",
+        "type": "ui_text",
+        "z": "d7412538.1e6088",
+        "group": "a41c47cf.444e88",
+        "order": 1,
+        "width": "4",
+        "height": "2",
+        "name": "Data",
+        "label": "Data",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 780,
+        "y": 503,
+        "wires": []
+    },
+    {
+        "id": "90030e6e.232e8",
+        "type": "debug",
+        "z": "d7412538.1e6088",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 475,
+        "y": 40,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "dd8c5ec9.82ba4",
+        "type": "debug",
+        "z": "d7412538.1e6088",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 494.5,
+        "y": 179,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "5d466ac2.443544",
+        "type": "dashDB in",
+        "z": "d7412538.1e6088",
+        "dashDB": "",
+        "service": "_ext_",
+        "query": "",
+        "params": "",
+        "name": "",
+        "x": 465.5,
+        "y": 99,
+        "wires": [
+            []
+        ],
+        "l": false
+    },
+    {
+        "id": "336123df.d1b97c",
+        "type": "dashDB in",
+        "z": "d7412538.1e6088",
+        "dashDB": "d3a9254a.576738",
+        "service": "_ext_",
+        "query": "",
+        "params": "",
+        "name": "",
+        "x": 495,
+        "y": 234,
+        "wires": [
+            []
+        ],
+        "l": false
+    },
+    {
+        "id": "3a292c98.9ddd24",
+        "type": "moment",
+        "z": "d7412538.1e6088",
+        "name": "",
+        "topic": "",
+        "input": "payload",
+        "inputType": "msg",
+        "inTz": "Etc/ETC/GMT",
+        "adjAmount": "3",
+        "adjType": "hours",
+        "adjDir": "add",
+        "format": "",
+        "locale": "en",
+        "output": "",
+        "outputType": "msg",
+        "outTz": "Etc/ETC/GMT",
+        "x": 760,
+        "y": 400,
+        "wires": [
+            [
+                "44b4caaf.1d5a34"
+            ]
+        ]
+    }
+]
