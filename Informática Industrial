@@ -108,7 +108,7 @@
             "angularTheme": {
                 "primary": "indigo",
                 "accents": "blue",
-                "warn": "red",
+                "warn": "orange",
                 "background": "grey"
             }
         },
@@ -170,7 +170,7 @@
         "name": "cadastro para-raios",
         "tab": "4b9bc083.53ba8",
         "disp": true,
-        "width": "6",
+        "width": "7",
         "collapse": false
     },
     {
